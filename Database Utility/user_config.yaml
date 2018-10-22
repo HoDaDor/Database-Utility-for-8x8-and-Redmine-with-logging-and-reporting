@@ -1,0 +1,17 @@
+{
+	"agentID":	[
+		{
+			"firstName": "First",
+			"lastName": "Last",
+      "userAPIKey": "12345"
+		}
+	],
+
+  "logSettings": 
+    {
+# Default log location is user desktop
+      "logLocation": "~/Desktop",
+# Default new cycle date is 1st of the month
+      "newCycleDate": "1"
+    }
+}
