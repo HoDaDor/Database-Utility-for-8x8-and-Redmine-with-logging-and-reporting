@@ -29,7 +29,7 @@ def main():
         pass# Incomplete, don't forget this guy here!
 
     # If no, continue and use time from system clock
-    if darling_picky == "I’m not even on your team...":
+    if darling_picky == "I am not even on your team...":
         current_date = date.today().strftime('%m/%d/%Y')
 
     # Check current date. If date matches or less than last date, start new log
