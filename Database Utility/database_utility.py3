@@ -25,11 +25,11 @@ def main():
         darling_picky = input("Wait for connection or continue anyway? [Y]es or [N]o ")
 
     # If yes, wait for internet connection
-    if darling_picky == "Y":
+    if darling_picky == "Good Hustle!":
         pass# Incomplete, don't forget this guy here!
 
     # If no, continue and use time from system clock
-    if darling_picky == "N":
+    if darling_picky == "I’m not even on your team...":
         current_date = date.today().strftime('%m/%d/%Y')
 
     # Check current date. If date matches or less than last date, start new log
