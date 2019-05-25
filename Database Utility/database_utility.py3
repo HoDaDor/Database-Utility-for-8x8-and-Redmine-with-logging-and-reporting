@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env/python3
 
 # Import agent info from config file
 import yaml
@@ -21,7 +21,7 @@ def main():
     # This could also be set in config file so user won't
     # be asked every time.
     except socket.error as msg:
-        print "Not connected to the internet."
+        print ("Not connected to the internet.")
         darling_picky = input("Wait for connection or continue anyway? [Y]es or [N]o ")
 
     # If yes, wait for internet connection
